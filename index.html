@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Update MyAgenda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <style>
+        @font-face {
+            font-family: 'Product Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            font-family: Product Sans;
+        }
+
+        .bg-dark {
+            background-color: #222222 !important;
+        }
+
+        .is-rounded {
+            border-radius: 50px;
+        }
+        .min-h-100 {
+            min-height: 100%;
+        }
+    </style>
+</head>
+
+<body class="bg-dark text-white">
+    <div class="container min-h-100">
+        <div class="row min-h-100 justify-content-center align-items-center">
+            <div class="col col-md-8 text-center">
+                <h1 class="mb-5">MyAgenda</h1>
+                
+                <p>
+                    MyAgenda a été complètement refait avec Flutter pour offrir également une version iOS.<br />
+                    Cette nouvelle version apporte un rafraichissement du design, des fonctionnalités et des performances.
+                </p>
+                
+                <p class="mt-3">
+                    MyAgenda est désormais disponible directement depuis le Play Store (Android), et sera bientôt disponible à l'App Store (iOS).
+                </p>
+
+                <div class="card mt-4">
+                    <div class="card-body text-dark">
+                        Si vous avez déjà installé l'application sans être passé par le Store, désinstallez MyAgenda et installez la via le Store.
+                    </div>
+                </div>
+
+                <h3 class="my-5">Download the app</h3>
+
+                <div>
+                    <a href="https://play.google.com/store/apps/details?id=com.pyozer.myagenda" class="btn btn-outline-light btn-lg is-rounded"
+                        target="_blank">
+                        <i class="fab fa-android mr-2"></i> Play Store
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.pyozer.myagenda" class="btn btn-outline-light btn-lg is-rounded ml-4 disabled">
+                        <i class="fab fa-apple mr-2"></i> App Store
+                    </a>
+                </div>
+
+                <p class="mt-5"><small>Dernière version 4.0.4</small></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
